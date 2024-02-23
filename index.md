@@ -31,10 +31,10 @@ x xxx x xx xx A xx
 └-> 1. purpose
 ```
 
-The `object #` can also be thought of as the *number of attempts* I have tried a
-project. It's basically how many of a specific project I have tried to create.
-It's not in order of creation date -- it's probably in order of catalogue date.
-You would be surprised how high this number can get.
+The `object #` can be thought of as the *number of attempts* I have tried a
+project. It's how many of a specific project I have tried to create. It's not in
+order of creation date -- it's probably in order of catalogue date. You would be
+surprised how high this number can get.
 
 The following tables are subject to change.
 

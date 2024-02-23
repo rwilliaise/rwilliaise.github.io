@@ -6,7 +6,7 @@ const searchIndex = await fetch("/search_index.json")
 
 window.openRandomPage = () => {
   const project = searchIndex[Math.floor(Math.random() * searchIndex.length)]
-  window.open(project.url)
+  window.location.href = project.url
 }
 
 // totally not copied from a certain outdated site
@@ -46,7 +46,7 @@ function createSearchbar(area) {
       item.innerHTML += `${title.slice(titleIndex + area.value.length)}`
       item.onclick = () => {
         area.value = ""
-        window.open(project.url)
+        window.location.href = project.url
         closeAutocompleteLists()
       }
       list.appendChild(item)
