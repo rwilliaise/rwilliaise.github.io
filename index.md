@@ -5,10 +5,14 @@ title: "Home"
 
 # Raja W.
 
-Hello! This is a portfolio of ~~*most* projects I have ever made.~~[^1] Really! Because
-I have a large array of projects to organize, I have created a system to title
-and curate projects that makes it easy as possible to find and group similar
-projects.
+Hello! This is a portfolio of ~~*most* projects I have ever made.~~[^1] Really!
+Because I have a large array of projects to organize, I have created a system to
+title and curate projects that makes it easy as possible to find and group
+similar projects.
+
+Let me preface by saying that most projects are in a completely unusable or
+unfinished state. Most that are unfinished will continue to be and forever be
+unfinished.
 
 [^1]: This is currently not true as I am in the midst of setting up this site.
 
