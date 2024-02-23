@@ -5,13 +5,12 @@ title: "Home"
 
 # Raja W.
 
-Hello! This is a portfolio of *most* projects I have ever made.[^1] Really! Because
+Hello! This is a portfolio of ~~*most* projects I have ever made.~~[^1] Really! Because
 I have a large array of projects to organize, I have created a system to title
 and curate projects that makes it easy as possible to find and group similar
 projects.
 
-[^1]: I have left off certain projects that I have deemed unpublishable because
-    of 1. obscene content or 2. the lack of content thereof.
+[^1]: This is currently not true as I am in the midst of setting up this site.
 
 ## ID string
 
