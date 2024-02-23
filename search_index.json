@@ -1,0 +1,13 @@
+---
+---
+
+[
+  {% for project in site.projects %}
+    {
+      "id": "{{ project.rid | escape }}",
+      "name": "{{ project.title | escape }}",
+      "url": "{{ site.url }}{{ project.url }}",
+      "pitch": "{{ project.pitch | escape }}"
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

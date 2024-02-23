@@ -1,0 +1,82 @@
+
+$bg_dark: #aaaaaa;
+$bg_mid: #dddddd;
+$bg_light: #ffffff;
+
+$fg_dark: #000000;
+
+$body_font: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+body {
+  background: $bg_dark;
+  color: $fg_dark;
+  font-family: $body_font;
+  margin: 0px;
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  text-decoration: none;
+  font-weight: 600;
+  color: $fg_dark;
+}
+
+.content {
+  background: $bg_light;
+  max-width: 800px;
+  min-height: 100vh;
+  margin: auto;
+  padding: 1em;
+  box-shadow: -1em 0 1em 0 rgba(0, 0, 0, 0.2), 1em 0 1em 0 rgba(0, 0, 0, 0.2)
+}
+
+.highlight {
+  margin: 5px;
+  background-color: $bg_mid;
+  padding: 4px;
+}
+
+.footnotes {
+  border-top: 1px solid $bg_mid;
+  font-size: small;
+}
+
+.footnote {
+  font-size: smaller;
+  text-decoration: none;
+}
+
+code {
+  padding: 2px;
+  background-color: $bg_mid;
+}
+
+table {
+  border: 1px solid $bg_dark;
+  width: 100%;
+  table-layout: auto;
+  font-family: monospace;
+
+  tr {
+    height: 2rem;
+  }
+
+  td,
+  th {
+    padding-left: 0.5rem;
+    vertical-align: middle;
+  }
+
+  tr:nth-child(odd) {
+    background-color: $bg_mid;
+  }
+
+  th,
+  tr:nth-child(even) {
+    background-color: $bg_light;
+  }
+}
+

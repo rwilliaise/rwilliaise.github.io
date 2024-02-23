@@ -1,0 +1,14 @@
+---
+layout: default
+title: "Project Listing"
+---
+
+<h1>Projects Listing</h1>
+<div class="projects-listing">
+  {% for project in site.projects %}
+    <div class="project">
+      <a href="{{ project.url | relative_url }}"><h3>{{ project.rid }} - {{ project.title }}</h3></a>
+      <p>{{ project.pitch | markdownify }}</p>
+    </div>
+  {% endfor %}
+</div>

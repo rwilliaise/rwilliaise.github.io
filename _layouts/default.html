@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script src="{{ "/assets/js/default.js" | relative_url }}"></script>
+  </head>
+  <body>
+    <div class="content">
+      <div class="topbar">
+        <a href="{{ "/" | relative_url }}">home</a>
+        <a href="{{ "/projects" | relative_url }}">projects</a>
+        <a href="javascript:void(0);" onclick="openRandomPage()">random project</a>
+        <div class="autocomplete">
+          <textarea id="searchbar" rows="1" placeholder="search..."></textarea>
+        </div>
+      </div>
+      {{ content }}
+    </div>
+  </body>
+</html>
