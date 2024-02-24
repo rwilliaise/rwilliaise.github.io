@@ -20,6 +20,7 @@ This page is for the *extra* big tables. These tables will change consistently.
 |  07  | Minecraft mod.                                                        |
 |  08  | Rust.                                                                 |
 |  09  | Java.                                                                 |
+|  10  | KiCAD.                                                                |
 
 ## 5. Series
 
@@ -28,7 +29,7 @@ This page is for the *extra* big tables. These tables will change consistently.
 |  00  | Personal website.                                                     |
 |  01  | Piano.                                                                |
 |  02  | Drums.                                                                |
-|  03  | English Language Arts classes.                                        |
+|  03  | Politics.                                                             |
 |  04  | Networking.                                                           |
 |  05  | Ego, consciousness.                                                   |
 |  06  | AI, Deep Learning, Machine Learning.                                  |
@@ -41,4 +42,5 @@ This page is for the *extra* big tables. These tables will change consistently.
 |  13  | Japanese, Japanese learning.                                          |
 |  14  | Audiovisual processing related.                                       |
 |  15  | Reverse engineering.                                                  |
+|  16  | How to engineer well?                                                 |
 

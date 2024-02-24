@@ -16,6 +16,19 @@ unfinished.
 
 [^1]: This is currently not true as I am in the midst of setting up this site.
 
+## Featured projects
+
+<div class="projects-listing">
+  {% for project in site.projects %}
+    {% if project.featured %}
+      <div class="project">
+        <a href="{{ project.url | relative_url }}"><h3>{{ project.slug }} - {{ project.title }}</h3></a>
+        <p>{{ project.pitch | markdownify }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
 ## ID string
 
 Each project is assigned an id string, which have several sections that make

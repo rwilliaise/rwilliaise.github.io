@@ -41,6 +41,15 @@
   }
 }
 
+.badge {
+  font-size: small;
+
+  img {
+    float: left;
+    margin-right: 5px;
+  }
+}
+
 .projects-listing {
   .project {
     padding: 0.5rem;

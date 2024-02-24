@@ -2,4 +2,8 @@
 layout: default
 ---
 <h1>{{ page.slug }} - {{ page.title }}</h1>
+<div class="badge">
+<img alt="Static Badge" src="https://img.shields.io/badge/raja.rocks-{{ page.slug }}-lightgray?style=flat-square">
+<a href='javascript:void(0);' onclick='this.innerHTML = "copied";navigator.clipboard.writeText(`<a href="{{ site.url }}{{ page.url }}"><img alt="Static Badge" src="https://img.shields.io/badge/raja.rocks-{{ page.slug }}-lightgray?style=flat-square"></a>`)'>copy</a>
+</div>
 {{ page.content }}

@@ -28,6 +28,7 @@ a:visited {
   background: $bg_light;
   max-width: 800px;
   min-height: 100vh;
+  position: relative;
   margin: auto;
   padding: 1em;
   box-shadow: -1em 0 1em 0 rgba(0, 0, 0, 0.2), 1em 0 1em 0 rgba(0, 0, 0, 0.2)
@@ -47,6 +48,18 @@ a:visited {
 .footnote {
   font-size: smaller;
   text-decoration: none;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  color: $bg_mid;
+  background-color: $bg_mid;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 code {
