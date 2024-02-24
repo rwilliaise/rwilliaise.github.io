@@ -51,6 +51,7 @@ Purpose is really simple -- what use does this project have?
 |  E  | Made for the entertainment of me or the entertainment of others.       |
 |  P  | Made for ideological, political or otherwise, persuasion.              |
 |  R  | Made for educational or research purposes.                             |
+|  U  | Made as a utility to other projects.                                   |
 
 ### 2. Disciplines
 Each digit in this three digit number represents a different discipline that was
