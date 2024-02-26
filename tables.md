@@ -17,9 +17,9 @@ This page is for the *extra* big tables. These tables will change consistently.
 |  04  | Typescript, Typescript transpilers.                                   |
 |  05  | Raylib.                                                               |
 |  06  | GLFW + OpenGL.                                                        |
-|  07  | Minecraft mod.                                                        |
+|  07  | Java, Minecraft mod.                                                  |
 |  08  | Rust.                                                                 |
-|  09  | Java.                                                                 |
+|  09  | Multi-project collection.                                             |
 |  10  | KiCAD.                                                                |
 
 ## 5. Series
@@ -43,4 +43,5 @@ This page is for the *extra* big tables. These tables will change consistently.
 |  14  | Audiovisual processing related.                                       |
 |  15  | Reverse engineering.                                                  |
 |  16  | How to engineer well?                                                 |
+|  17  | `deeper_learning`                                                     |
 

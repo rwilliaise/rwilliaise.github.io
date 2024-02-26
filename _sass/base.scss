@@ -34,10 +34,64 @@ a:visited {
   box-shadow: -1em 0 1em 0 rgba(0, 0, 0, 0.2), 1em 0 1em 0 rgba(0, 0, 0, 0.2)
 }
 
+// loosely based off of the macvim colorscheme
 .highlight {
   margin: 5px;
-  background-color: $bg_mid;
+  background-color: #1a1a1a; // Grey10
+  color: #7f7f7f; // Grey50
   padding: 4px;
+  
+  // comment
+  .cm,
+  .c1 {
+    color: #7ac5cd; // CadetBlue3
+    font-style: italic;
+  }
+
+  // string
+  .dl,
+  .s2,
+  .cpf,
+  .s {
+    color: #4a708b; // SkyBlue4
+  }
+
+  // constant
+  .mi,
+  .mh {
+    color: #ffc125; // Goldenrod1
+  }
+
+  // preproc
+  .cp {
+    color: #1874cd; // DodgerBlue3
+  }
+  
+  // boolean
+  // .kc {
+  //  color: #8b0a50; // DeepPink4
+  // }
+
+  // type
+  .kt {
+    color: #008b8b; // Cyan4
+    font-weight: bold;
+  }
+
+  // statement
+  .nl,
+  .k {
+    color: #9b30ff; // Purple1
+    font-weight: bold;
+  }
+
+  // identifier
+  .nb,
+  .nf,
+  .nv,
+  .kd {
+    color: #458b74; // Aquamarine4
+  }
 }
 
 .footnotes {
@@ -48,6 +102,10 @@ a:visited {
 .footnote {
   font-size: smaller;
   text-decoration: none;
+}
+
+li p {
+  margin: 0;
 }
 
 hr {
@@ -64,7 +122,6 @@ img {
 
 code {
   padding: 2px;
-  background-color: $bg_mid;
 }
 
 table {

@@ -41,7 +41,7 @@ x xxx x xx xx A xx
 - --- - -- -- - --
 |  |  |  |  | |  └-> object #
 |  |  |  |  | └-> id string revision 
-|  |  |  |  └-> 5. object series (universe, etc)
+|  |  |  |  └-> 5. object series
 |  |  |  └-> 4. frameworks used
 |  |  └-> 3. exigence
 |  └-> 2. disciplines
