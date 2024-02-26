@@ -1,6 +1,7 @@
 url: "https://raja.rocks" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Raja W."
+projects_goal: 1000.0
 collections:
   projects:
     output: true

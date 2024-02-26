@@ -1,0 +1,4 @@
+<div class="progress-bar">
+  <div style="width: {{ site.projects.size | divided_by: site.projects_goal | times: 100 }}%;" class="progress"></div>
+  <div class="overlay">Goal: {{ site.projects.size }} / {{ site.projects_goal | floor }}</div>
+</div>
