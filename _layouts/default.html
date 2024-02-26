@@ -3,6 +3,31 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+
+    <meta property="og:title" content="{% if page.pitch %}{{ page.slug }} - {% endif %}{{ page.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ page.pitch | default: 'Archive of Everything Raja' }}">
+
+    {% assign images = content | split:"<img " %}
+    {% assign starting_url = site.url | append: "/" %}
+    {% for image in images %}
+      {% if image contains 'src' %}
+        {% unless image contains 'shields.io' %}
+          {% assign html = image | split:"/>" | first %}
+          {% assign tags = html | split:" " %}
+          {% for tag in tags %}
+            {% if tag contains 'src' %}
+              <meta property="og:image" {{ tag | replace: "src", "content" | replace_first: '/', starting_url }}>
+            {% endif %}
+          {% endfor %}
+          {% break %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:card" content="summary_large_image">
+
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <script src="{{ "/assets/js/default.js" | relative_url }}"></script>
