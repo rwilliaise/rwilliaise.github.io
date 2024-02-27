@@ -21,6 +21,9 @@ This page is for the *extra* big tables. These tables will change consistently.
 |  08  | Rust.                                                                 |
 |  09  | Multi-project collection.                                             |
 |  10  | KiCAD.                                                                |
+|  11  | Qt.                                                                   |
+|  12  | Godot.                                                                |
+|  13  | OpenCL, CUDA. Compute language.                                       |
 
 ## 5. Series
 
@@ -44,4 +47,6 @@ This page is for the *extra* big tables. These tables will change consistently.
 |  15  | Reverse engineering.                                                  |
 |  16  | How to engineer well?                                                 |
 |  17  | `deeper_learning`                                                     |
+|  18  | Game clones.                                                          |
+|  19  | Bread.                                                                |
 
