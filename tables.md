@@ -49,4 +49,5 @@ This page is for the *extra* big tables. These tables will change consistently.
 |  17  | `deeper_learning`                                                     |
 |  18  | Game clones.                                                          |
 |  19  | Bread.                                                                |
+|  20  | Horror games.                                                         |
 
