@@ -1,0 +1,20 @@
+# Setup
+title:               Raja Williams
+tagline:             'The website of Raja Williams'
+description:         'A personal website and portfolio of Raja Williams.'
+url:                 http://rajaw.org
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Raja Williams
+  url:               https://rajaw.org
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.0.0
