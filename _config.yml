@@ -2,7 +2,7 @@
 title:               Raja Williams
 tagline:             'The website of Raja Williams'
 description:         'A personal website and portfolio of Raja Williams.'
-url:                 http://rajaw.org
+url:                 https://rajaw.org
 baseurl:             ''
 paginate:            5
 permalink:           pretty
