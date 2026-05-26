@@ -1,7 +1,7 @@
 # Setup
 title:               Raja Williams
-tagline:             'The website of Raja Williams'
-description:         'A personal website and portfolio of Raja Williams.'
+tagline:             '@rajaw.org'
+description:         'Personal website of Raja Williams'
 url:                 https://rajaw.org
 baseurl:             ''
 paginate:            5
